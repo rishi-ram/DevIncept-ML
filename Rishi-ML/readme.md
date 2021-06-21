@@ -70,6 +70,7 @@ Machine learning is categorized by how an program/software learns to become more
 
 * ***Speech Recognition*** : Lots of people know about speech recognition,that you teach algorithm about voice system recognize it. The most well-known example such as Google Assistant and Siri or samsung assistant bixby.whatever information just tell them 'Hey siri'.
 <img src="https://image.slidesharecdn.com/sr-170427000436/95/speech-recognition-system-1-638.jpg?cb=1494239334" width="30%" height="30%">
+
 ### What Is Regression? :-
 
 * Regression analysis may be kind of predictive modelling technique which investigates the connection between a dependent and independent variable.
@@ -92,6 +93,7 @@ logistic regression
 **difference between Linear regression and logistic regression:-**
 
 <img src="https://miro.medium.com/max/1450/1*rsNiQDB2HZBzlihOwyi42A.png" height="50%" width="50%" >
+
 # CLASSIFICATION IN MACHINE LEARNING
 
 ## What is Classification?
@@ -133,7 +135,7 @@ The main goal is to identify which class/category the new data will fall into.
 
 # Classification Problem Evaluation Metrics 
 1. **Confusion Matrix** :
-2. <table>
+ <table>
 <tbody>
 <tr>
 <td>&nbsp;</td>
@@ -152,16 +154,16 @@ The main goal is to identify which class/category the new data will fall into.
 </tr>
 </tbody>
 </table>
-<br> Let us take an example so as to not confuse.:joy: <br>
-2. **Accuracy** :
+
+ **Accuracy** :
  <pre>             total number of correct predictions 
 Accuracy = ----------------------------------------  
                total number of predictions     </pre>
-3. **Precision**
+ **Precision**
  <pre>                 TP 
 Precision = --------------
                TP + FP   </pre>
-4. **Recall (Senstivity)**
+ **Recall (Senstivity)**
  <pre>             TP 
 Recall = -----------
            TP + FN   </pre>
@@ -169,7 +171,24 @@ Recall = -----------
  . <pre>                         1                            2 * precision * recall 
 F1-score = 2 * -----------------------------  =   -----------------------------
                    1/precision + 1/recall               precision + recall
-5. **Specificity**
+ **Specificity**
  <pre>                 TN 
 Specificity = -----------
                TN + FP   </pre>
+
+**You can contact me from below links provided just click the icon:-**
+* <a href="https://www.instagram.com/rishi_ramachandran/">
+  <img align="left" alt="Yash Naval's Instagram" width="20px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+</a>
+
+* <a href="https://github.com/rishi-ram/rishi-ram">
+  <img align="left" alt="Yash Naval's Github" width="20px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+</a>
+
+**Mail** : rishiramachandran2222@gmail.com
+
+* <a href="https://www.linkedin.com/in/yash-naval-96104b1b5/">
+  <img align="left" alt="Yash Naval's Linkdein" width="16px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
+
+#### Thanks For Reading!
