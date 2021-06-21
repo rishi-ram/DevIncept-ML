@@ -80,7 +80,7 @@ Machine learning is categorized by how an program/software learns to become more
 
 1. **Linear Regression** :-
 * A Linear Regression is one of the easiest algorithm in ML. is a stastical model that attempts to indicate the link between the 2 variable,input(X) & output(Y) with the equation.The Input variable is called the Independent Variable and the Output variable is called the Dependent Variable.When unseen data is passed to the algorithm, it uses the function, calculates and maps the input to a continuous value for the output.
-* The equation has the form Y= B0 + B1X, where Y is the dependent variable (that's the variable that goes on the Y axis), X is the independent variable (i.e. it is plotted on the X axis), B0 is the slope of the line and B1 is the y-intercept.
+* The equation has the form Y= B0 + B1X, where Y is the dependent variable (that's the variable that goes on the Y axis), X is the independent variable (i.e. it is plotted on the X axis), B1 is the slope of the line and B0 is the y-intercept.
 <img src="https://nextjournal.com/data/QmfPuPp4V74FyvTTojMj6ix9T8Skj1ji4GhX5Pr6zK8w4N?filename=linear-regression.png&content-type=image/png" alt="linear regression">
 
 2. **Logistic Regression** :-
@@ -123,24 +123,14 @@ The main goal is to identify which class/category the new data will fall into.
 
 # Classification Algorithms
 
-## Logistic Regression
-## Naive Bayes Classifier
-## K-Nearest Neighbor
-## Decision Tree
-## Random Forest
-## Support Vector Machines
+* Logistic Regression
+* Naive Bayes Classifier
+* K-Nearest Neighbor
+* Decision Tree
+* Random Forest
+* Support Vector Machines
 
-# Classifier Evaluation
 
-## Classification Report
-* **Accuracy**
-   * Accuracy is a ratio of correctly predicted observation to the total observations
-   * True Positive: The number of correct predictions that the occurrence is positive.
-   * True Negative: Number of correct predictions that the occurrence is negative.
-* **F1- Score**
-   * It is the weighted average of precision and recall
-* **Precision And Recall**
-   * Precision is the fraction of relevant instances among the retrieved instances, while recall is the fraction of relevant instances that have been retrieved over the total number of instances. They are basically used as the measure of relevance.
 # Classification Problem Evaluation Metrics 
 1. **Confusion Matrix** :
 2. <table>
@@ -164,22 +154,22 @@ The main goal is to identify which class/category the new data will fall into.
 </table>
 <br> Let us take an example so as to not confuse.:joy: <br>
 2. **Accuracy** :
-3. <pre>             total number of correct predictions 
+ <pre>             total number of correct predictions 
 Accuracy = ----------------------------------------  
                total number of predictions     </pre>
 3. **Precision**
-4. <pre>                 TP 
+ <pre>                 TP 
 Precision = --------------
                TP + FP   </pre>
 4. **Recall (Senstivity)**
-5. <pre>             TP 
+ <pre>             TP 
 Recall = -----------
            TP + FN   </pre>
-5. **F1:-score**
-6. <pre>                         1                            2 * precision * recall 
+ **F1:-score**
+ . <pre>                         1                            2 * precision * recall 
 F1-score = 2 * -----------------------------  =   -----------------------------
                    1/precision + 1/recall               precision + recall
-6. **Specificity**
-7. <pre>                 TN 
+5. **Specificity**
+ <pre>                 TN 
 Specificity = -----------
                TN + FP   </pre>
